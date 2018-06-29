@@ -24,4 +24,4 @@
 ### 引用
 * [ansj分词项目github主页](https://github.com/NLPchina/ansj_seg)
 * [jsoup项目主页](https://jsoup.org/)
-* [基于文本密度的网页正文提取算法](https://www.cnblogs.com/jasondan/p/3497757.html)
+* [网页正文提取算法参考](https://www.cnblogs.com/jasondan/p/3497757.html)
