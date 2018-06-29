@@ -21,6 +21,16 @@
 * `QueryParserImpl`：对输入的查询语句进行分词处理，返回查询对象Query。
 分词处理同样基于 ansj 5.1.6 实现。
 * `IndexSearcherImpl`：计算查询对象Query与所有包含查询词项的网页的相似度，返回结果。
+### 测试程序
+* 运行Webpage Preprocessing目录下，startCrawler中的main方法
+* 输入停止词文件位置（每行一个词），url文件位置，以及网页文件保存位置
+* 等待程序运行完成，输出抓取时间，网页数目和抓取速度（程序刚开始运行会输出ansj的控制台信息，请忽略）
+* 运行Index目录下，startIndexBuilder中的main方法
+* 输入网页文件目录，以及索引结果保存目录
+* 等待程序运行完成，输出文件数目，建索时间，词汇表长度，以及索引文件大小
+* 运行Searcher目录下，startSearcher中的main方法
+* 输入停止词文件位置以及索引目录位置
+* 输入查询语句，获取查询结果（第一次查询会输出ansj的控制台信息，请忽略）
 ### 引用
 * [ansj分词项目github主页](https://github.com/NLPchina/ansj_seg)
 * [jsoup项目主页](https://jsoup.org/)
